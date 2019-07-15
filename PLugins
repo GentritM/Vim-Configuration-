@@ -1,10 +1,13 @@
 
 " My Plugins
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'sotte/presenting.vim'
-Plugin 'HTML5-Syntax-File'
-Plugin 'tpope/vim-fugitive'
-Plugin 'rstacruz/sparkup'
-Plugin 'benmills/vimux'
-Plugin 'lepture/vim-jinja'
+Plugin 'VundleVim/Vundle.vim'           |~                                      
+Plugin 'sotte/presenting.vim'           |~                                      
+Plugin 'HTML5-Syntax-File'              |~                                      
+Plugin 'tpope/vim-fugitive'             |~                                      
+Plugin 'rstacruz/sparkup'               |~                                      
+Plugin 'sonph/onehalf'                  |~                                      
+Plugin 'dracula/vim'                    |~                                      
+Plugin 'ryanoasis/vim-devicons'         |~                                      
+Plugin 'benmills/vimux'                 |~                                      
+Plugin 'lepture/vim-jinja'   
 

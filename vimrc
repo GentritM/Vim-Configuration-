@@ -32,12 +32,17 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " All of your Plugins must be added before the following line
 " Bundle "sotte/presenting.vim"
 " Bundle "lepture/vim-jinja"
+ Bundle 'sonph/onehalf', {'rtp': 'vim/'}
+let g:airline_theme='onehalfdark'
 
+Plugin 'dracula/vim'
+set t_Co=256
+Bundle 'ryanoasis/vim-devicons'
 "Vimux and ipython plugins"
 Plugin 'benmills/vimux' 
 
 "django plugins 
-
+set encoding=UTF-8
 
 "Jinja templates plugins
 Plugin 'lepture/vim-jinja'
@@ -256,7 +261,8 @@ imap <M-Left> <ESC><c-w>h
 imap <M-Up> <ESC><c-w>k
 imap <M-Down> <ESC><c-w>j
 nnoremap <silent> <F8> :!clear;gcc % -o % && ./%<CR>
-
+nnoremap H gT
+nnoremap L gt
 "switching buffers plugin 
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
@@ -279,9 +285,9 @@ nmap ,wr :Ack <cword><CR>
 " use 256 colors when possible
 if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
 	let &t_Co = 256
-    colorscheme fisa
+    colorscheme onehalfdark 
 else
-    colorscheme delek
+    colorscheme onehalfdark 
 endif
 
 " colors for gvim
