@@ -6,6 +6,9 @@ How it works?
 Copy the content of vimrc and paste it to your .vimrc file if you already have a .vimrc file, 
 if not then create it on your home directory and paste the content of vimrc from this repo.
 
+Copy and paste this command on your home directory 
+ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+ 
 After that, Vundle will be installed automatiaclly.
 
 Vundle is a package manager for Vim that helps you install and manage vim plugins.
